@@ -1,0 +1,4 @@
+<h1><%= @post.title %></h1>
+<p>Posted on <%=# @post.created_at %></p>
+<p><%= @post.body %></p>
+<p><a href="/posts">Back to Posts</a></p>

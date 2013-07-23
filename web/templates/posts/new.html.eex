@@ -1,0 +1,14 @@
+<form accept-charset="UTF-8" action="/posts" class="new_post" id="new_post" method="post">
+  <div class="field">
+    <label for="post_title">Title</label><br>
+    <input id="post_title" name="post[title]" type="text" />
+  </div>
+  <div class="field">
+    <label for="post_body">Body</label><br>
+    <textarea id="post_body" name="post[body]"></textarea>
+  </div>
+  <div class="actions">
+    <input name="commit" type="submit" value="Create Post" />
+  </div>
+</form>
+<p><a href="/posts">Back to Posts</a></p>

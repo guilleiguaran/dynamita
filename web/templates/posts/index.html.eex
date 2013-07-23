@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+<%= lc post inlist @posts do %>
+  <h2><a href="/posts/<%= post.id %>"><%= post.title %></a></h2>
+  <p>Posted on <%=# post.created_at %></p>
+  <p><%= post.body %></p>
+<% end %>
+<p><a href="/posts/new">Create a new Post</a></p>
