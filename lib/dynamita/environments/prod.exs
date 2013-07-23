@@ -12,5 +12,3 @@ config :server,
 #  port: 8889,
 #  keyfile: "/var/www/key.pem",
 #  certfile: "/var/www/cert.pem"
-
-config :database, url: String.replace(System.get_env("DATABASE_URL"), "postgres", "ecto")
