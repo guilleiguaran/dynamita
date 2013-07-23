@@ -7,7 +7,7 @@ defmodule PostTest do
     posts = Post.all
     post = Enum.first(posts)
 
-    assert Enum.count(posts) == 1
+    assert Enum.count(posts) == 3
     assert post.title == "Hello world"
   end
 
