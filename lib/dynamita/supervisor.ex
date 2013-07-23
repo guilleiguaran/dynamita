@@ -1,4 +1,4 @@
-Code.require_file "../../web/repositories/blog_repo.ex", __FILE__
+Code.require_file "../../../web/repositories/blog_repo.ex", __FILE__
 
 defmodule Dynamita.Supervisor do
   use Supervisor.Behaviour
