@@ -1,7 +1,7 @@
 defmodule PostMapper do
   use Ecto.Entity
 
-  dataset :posts do
+  schema :posts do
     field :title, :string
     field :body, :string
   end
