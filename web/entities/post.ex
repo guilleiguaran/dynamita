@@ -16,6 +16,7 @@ defmodule Post do
     |> BlogRepo.all
   end
 
+  # TODO: Replace this with BlogRepo.get when implemented
   def find(id) do
     from(p in PostMapper)
     |> where([p], p.id == id)
